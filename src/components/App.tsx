@@ -9,7 +9,7 @@ export interface AppProps {
 export default class App extends React.Component<AppProps, undefined> {
     render() {
         return (
-            <div className={"app " + styles.abc}>
+            <div className={"app container " + styles.abc}>
                 <h1>Hello World!</h1>
                 <p>Foo to the barz</p>
                 <img src={reactLogo} height="480"/>
